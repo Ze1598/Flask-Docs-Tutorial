@@ -1,6 +1,12 @@
+#Assumes this is intalled in the project's root directory (flaskr/)
+pip install --editable .
+
+#Then start the application
 set FLASK_APP=flaskr
 set FLASK_DEBUG=true
 flask run
 
+#Initialize the database
 flask initdb
+#Output of the previous command
 Initialized the database.
