@@ -1,0 +1,8 @@
+C:\Users\ze179\Desktop\temporary\code\projects\flask_tutorial\flaskr
+
+set FLASK_APP=flaskr
+set FLASK_DEBUG=true
+flask run
+
+flask initdb
+Initialized the database.
